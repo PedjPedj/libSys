@@ -19,7 +19,7 @@ To run this program, you need to install the following dependencies:
 
 To set up the required database structure, execute the following SQL statements:
 
-(Personally, I used sql workbench for creating the database)
+(Personally, I used sql workbench for creating the database.)
 
 
 ```sql
