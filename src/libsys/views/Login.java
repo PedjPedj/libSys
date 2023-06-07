@@ -87,11 +87,6 @@ public class Login extends javax.swing.JFrame {
 
         usernameField.setFont(new java.awt.Font("Roboto", 0, 14)); // NOI18N
         usernameField.setBorder(new javax.swing.border.LineBorder(new java.awt.Color(0, 0, 0), 1, true));
-        usernameField.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                usernameFieldActionPerformed(evt);
-            }
-        });
 
         jLabel2.setText("Username");
 
@@ -231,15 +226,6 @@ public class Login extends javax.swing.JFrame {
 
     }//GEN-LAST:event_loginBtnActionPerformed
 
-    private void usernameFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_usernameFieldActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_usernameFieldActionPerformed
-
-    private void passwordFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordFieldActionPerformed
-        // TODO add your handling code here:
-        this.loginBtnActionPerformed(evt);
-    }//GEN-LAST:event_passwordFieldActionPerformed
-
     private void loginBtnMouseEntered(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_loginBtnMouseEntered
         // TODO add your handling code here:
         loginBtn.setBackground(new Color(102, 102, 255));
@@ -255,6 +241,11 @@ public class Login extends javax.swing.JFrame {
         loginIcon.setIconColor(Color.black);
 
     }//GEN-LAST:event_loginBtnMouseExited
+
+    private void passwordFieldActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_passwordFieldActionPerformed
+        // TODO add your handling code here:
+        loginBtnActionPerformed(evt);
+    }//GEN-LAST:event_passwordFieldActionPerformed
 
     /**
      * @param args the command line arguments
