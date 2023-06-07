@@ -19,6 +19,8 @@ To run this program, you need to install the following dependencies:
 
 To set up the required database structure, execute the following SQL statements:
 
+(Personallu, I used sql workbench for creating the database)
+
 ```sql
 CREATE DATABASE mylibraryapp /*!40100 DEFAULT CHARACTER SET utf8mb4 COLLATE utf8mb4_0900_ai_ci / /!80016 DEFAULT ENCRYPTION='N' */;
 
@@ -61,6 +63,8 @@ CREATE TABLE users (
 ```
 
 Please make sure you have the necessary permissions to create the database and tables.
+
+For Sql handling stuff please check MySQLHandler.java.
 
 The `MySQLHandler.java` file can be found under the `Utils` folder. This file provides the necessary utility functions for handling MySQL database operations.
 
