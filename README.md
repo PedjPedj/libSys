@@ -62,6 +62,8 @@ CREATE TABLE users (
 
 Please make sure you have the necessary permissions to create the database and tables.
 
+For Sql handling stuff please check MySQLHandler.java.
+
 The `MySQLHandler.java` file can be found under the `Utils` folder. This file provides the necessary utility functions for handling MySQL database operations.
 
 This program is provided as-is and may contain bugs or incomplete features. Feel free to modify and build upon it according to your requirements.
